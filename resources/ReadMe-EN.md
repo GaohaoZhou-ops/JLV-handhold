@@ -47,7 +47,7 @@ Our sample device includes the following hardware, but you can customize your se
 
 * Note: `Official Guidance Price` uses different exchange rate identifiers to avoid exchange rate ambiguity;
 
-For the Jetson Orin and Mid360 combination, we used a custom lithium-ion battery with a capacity of 15600 mA, a power of 187 W, and a nominal voltage of 12.0 V. You can purchase this directly from a custom merchant by providing the model number TSY 18650-187W.
+For the Jetson Orin and Mid360 combination, we used a custom lithium-ion battery with a capacity of `15600 mA`, a power of `187 W`, and a nominal voltage of `12.0 V`. You can purchase this directly from a custom [merchant](http://191624.51sole.com/) and provide the code `TSY 18650-187W`.
 
 
 ----
