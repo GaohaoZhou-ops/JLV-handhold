@@ -42,7 +42,7 @@ Our sample device includes the following hardware, but you can customize your se
 |LiDAR|[Livox Mid360](https://www.livoxtech.com/cn/mid-360)|¥3,999.00|![mid360](./images/mid360.png)|
 |RGBD Camera|[RealSense D435i](https://store.realsenseai.com/buy-intel-realsense-depth-camera-d435i.html)|$354.00|![d345i](./images/d435i.png)|
 |Computer|[Nvidia Jetson Orin DK](https://www.nvidia.cn/autonomous-machines/embedded-systems/jetson-orin/)|¥ 15,999|![orim](./images/orin.png)|
-|Battery|Custom Made|¥ 250| Size: 93mm x 70mm x 69mm |
+|Battery|Custom Made|¥ 250| Size: 93mm x 70mm x 59mm |
 
 
 * Note: `Official Guidance Price` uses different exchange rate identifiers to avoid exchange rate ambiguity;
@@ -57,7 +57,7 @@ For the Jetson Orin and Mid360 combination, we used a custom lithium-ion battery
 Download the file [0000-shouchijiance_asm.stp](./model/0000-shouchijiance_asm.stp) and print it on a 3D printer. Due to the modular design, you only need to pay attention to the dimensions of the computer unit compartment and the battery compartment. If your battery input and output holes do not match our model, we recommend slightly modifying the battery compartment opening position.
 
 * Computer unit compartment dimensions: 110mm x 110mm x 71mm
-* Battery compartment dimensions: 93mm x 70mm x 69mm
+* Battery compartment dimensions: 93mm x 70mm x 59mm
 
 If you want to install the Mid360 radar at an angle, you can also add middleware to add a slope to the lidar.
 

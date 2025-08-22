@@ -43,7 +43,7 @@
 |LiDAR|[Livox Mid360](https://www.livoxtech.com/cn/mid-360)|¥3,999.00|![mid360](./images/mid360.png)|
 |RGBD Camera|[RealSense D435i](https://store.realsenseai.com/buy-intel-realsense-depth-camera-d435i.html)|$ 354.00|![d345i](./images/d435i.png)|
 |Computer|[Nvidia Jetson Orin DK](https://www.nvidia.cn/autonomous-machines/embedded-systems/jetson-orin/)|¥ 15,999|![orim](./images/orin.png)|
-|Battery|Custom Made|¥ 250| Size: 93mm x 70mm x 69mm|
+|Battery|Custom Made|¥ 250| Size: 93mm x 70mm x 59mm|
 
 
 * 注意：`官方指导价` 使用了不同汇率标识以避免汇率歧义；
@@ -57,7 +57,7 @@
 下载文件 [0000-shouchijiance_asm.stp](./model/0000-shouchijiance_asm.stp) 并用 3D 打印机进行打印。由于模块化设计，你仅需要注意的是计算单元仓和电池仓的尺寸，同时如果你的电池输入输出孔位与我们模型不符，建议稍微修改电池仓开孔位置。
 
 * 计算单元仓尺寸：110mm x 110mm x 71mm
-* 电池仓尺寸：93mm x 70mm x 69mm
+* 电池仓尺寸：93mm x 70mm x 59mm
 
 如果你想要让 Mid360 雷达倾斜安装，那么也可以通过增加中间件的方式实现，为激光雷达添加一个斜坡。
 
