@@ -9,5 +9,15 @@
 5. **手持握把**：在设备两侧提供了人体工程学设计的握持把手，均匀将力分配到两臂，一次性使用 1 小时也不会感到疲惫；
 6. **预留螺纹孔**：手持扫描结束后可以通过预留的四个螺纹孔将其安装到其他硬件平台上，无需其他算力；
 
+另一方面，由于在 Arm 上编译一些优秀的开源工程极具挑战性，我们也为部分项目撰写了编译手册，以便让你能够在这里找到一站式解决方案，当前支持的开源项目有：
+
+* FAST-LIO: [https://github.com/hku-mars/FAST_LIO#](https://github.com/hku-mars/FAST_LIO#)
+* FAST-LIVO2: [https://github.com/hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2)
+* Point-LIO: [https://github.com/hku-mars/Point-LIO#](https://github.com/hku-mars/Point-LIO#)
+* livox_camera_calib: [https://github.com/hku-mars/livox_camera_calib](https://github.com/hku-mars/livox_camera_calib)
+* Yolov11 with GPU: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+
+更多开源项目的编译我们会持续推出，敬请期待！
+
 ----
 
