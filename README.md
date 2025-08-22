@@ -29,3 +29,9 @@ The hardware and testing facilities for this project were provided by the `Insti
 
 [WenJiang Xu 徐文江](https://github.com/HEA1OR)，[PengFei Yi 易鹏飞](https://github.com/alfie010)，[JingKai Xu 徐靖凯](https://github.com/Triumphant-strain)，[XingYu Wang 王行宇](https://github.com/xywang227)，[YaNan Hao 郝亚楠](https://github.com/haoyanan2024)，[YuWei Wang 王雨薇](https://github.com/YuweiWang2002)
 
+
+----
+
+# News
+
+* 2025-08-22: Init the repo
