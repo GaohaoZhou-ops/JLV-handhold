@@ -45,8 +45,11 @@
 |Computer|[Nvidia Jetson Orin DK](https://www.nvidia.cn/autonomous-machines/embedded-systems/jetson-orin/)|¥ 15,999|![orim](./images/orin.png)|
 |Battery|Custom Made|¥ 250|None|
 
-* 注意：`官方指导价` 使用了不同汇率标识以避免汇率误会；
 
+* 注意：`官方指导价` 使用了不同汇率标识以避免汇率歧义；
+
+对于 Jetson Orin 和 Mid360 的组合而言，我们使用了 `15600 mAH`，功率 `187 W`，标称电压 `12.0 V` 的定制锂电池，你可以找到 [定制商户](http://191624.51sole.com/) 并向其提供型号为 `TSY 18650-187W` 信息以直接购买。 
+ 
 ----
 
 ## 组装
