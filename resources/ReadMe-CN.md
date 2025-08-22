@@ -11,6 +11,8 @@
 
 另一方面，由于在 Arm 上编译一些优秀的开源工程极具挑战性，我们也为部分项目撰写了编译手册，以便让你能够在这里找到一站式解决方案，当前支持的开源项目有：
 
+【注意】：**有关编译手册的内容详情请见后续的 `编译` 章节，下面的链接为原始项目链接。**
+
 * FAST-LIO: [https://github.com/hku-mars/FAST_LIO#](https://github.com/hku-mars/FAST_LIO#)
 * FAST-LIVO2: [https://github.com/hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2)
 * Point-LIO: [https://github.com/hku-mars/Point-LIO#](https://github.com/hku-mars/Point-LIO#)

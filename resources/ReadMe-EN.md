@@ -11,6 +11,8 @@ We are proud to introduce a handheld device that seamlessly integrates Nvidia Je
 
 On the other hand, because compiling some excellent open source projects on Arm can be challenging, we've also written compilation manuals for some projects so you can find a one-stop solution. Currently supported open source projects include:
 
+[Note]: **For details about the compilation manual, please see the subsequent `Compilation` section. The link below is the original project link.**
+
 * FAST-LIO: [https://github.com/hku-mars/FAST_LIO#](https://github.com/hku-mars/FAST_LIO#)
 * FAST-LIVO2: [https://github.com/hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2)
 * Point-LIO: [https://github.com/hku-mars/Point-LIO#](https://github.com/hku-mars/Point-LIO#)
