@@ -40,14 +40,48 @@
 
 |类别|设备|官方指导价|图片|
 |--|--|--|--|
-|LiDAR|[Livox Mid360](https://www.livoxtech.com/cn/mid-360)|¥3,999|||
+|LiDAR|[Livox Mid360](https://www.livoxtech.com/cn/mid-360)|¥3,999.00|![mid360](./images/mid360.png)|
+|RGBD Camera|[RealSense D435i](https://store.realsenseai.com/buy-intel-realsense-depth-camera-d435i.html)|$ 354.00|![d345i](./images/d435i.png)|
+|Computer|[Nvidia Jetson Orin DK](https://www.nvidia.cn/autonomous-machines/embedded-systems/jetson-orin/)|¥ 15,999|![orim](./images/orin.png)|
+|Battery|Custom Made|¥ 250|None|
 
+* 注意：`官方指导价` 使用了不同汇率标识以避免汇率误会；
 
 ----
 
 ## 组装
 
+下载文件 [0000-shouchijiance_asm.stp](./model/0000-shouchijiance_asm.stp) 并用 3D 打印机进行打印。由于模块化设计，你仅需要注意的是计算单元仓和电池仓的尺寸，同时如果你的电池输入输出孔位与我们模型不符，建议稍微修改电池仓开孔位置。
+
+* 计算单元仓尺寸：110mm x 110mm x 71mm
+* 电池仓尺寸：93mm x 70mm x 69mm
+
+如果你想要让 Mid360 雷达倾斜安装，那么也可以通过增加中间件的方式实现，为激光雷达添加一个斜坡。
+
+最终我们的组装效果如下所示：
+
+|Front|Left|Back|Top|Button|
+|--|--|--|--|--|
+|![front](./images/view_point_front.jpeg)|![left](./images/view_point_left.jpeg)|![back](./images/view_point_back.jpeg)|![top](./images/view_point_top.jpeg)|![button](./images/view_point_button.jpeg)|
+
 
 ----
 
 ## 编译与应用
+
+我们对广受好评的一些工程提供了在 Jetson 平台上编译的手册，包括了以下内容：
+
+* Fast-LIO: [https://github.com/GaohaoZhou-ops/JetsonSLAM/tree/main/fast_lio_project](https://github.com/GaohaoZhou-ops/JetsonSLAM/tree/main/fast_lio_project)
+* Fast-LIVO2: [https://github.com/GaohaoZhou-ops/JetsonSLAM/tree/main/fast_livo2_project](https://github.com/GaohaoZhou-ops/JetsonSLAM/tree/main/fast_livo2_project)
+* Point-LIO: [https://github.com/GaohaoZhou-ops/JetsonSLAM/tree/main/point_lio_project](https://github.com/GaohaoZhou-ops/JetsonSLAM/tree/main/point_lio_project)
+* livox_camera_calib: [https://github.com/GaohaoZhou-ops/Lidar-Camera-Calibration](https://github.com/GaohaoZhou-ops/Lidar-Camera-Calibration)
+* Yolov11: [https://github.com/GaohaoZhou-ops/JetsonYoloROS](https://github.com/GaohaoZhou-ops/JetsonYoloROS)
+
+
+除此之外，还有一些我们自己使用的 Demo 示例可用于参考：
+
+* Tello-LLM-ROS: [https://github.com/GaohaoZhou-ops/Tello-LLM-ROS](https://github.com/GaohaoZhou-ops/Tello-LLM-ROS)
+* Mixed-Navigation: [https://github.com/GaohaoZhou-ops/Mixed-Navigation](https://github.com/GaohaoZhou-ops/Mixed-Navigation)
+
+我们后续会补充更多工程在 Jetson 平台上的编译手册。
+
