@@ -1,0 +1,15 @@
+[submodule "JetsonSLAM"]
+	path = JetsonSLAM
+	url = https://github.com/GaohaoZhou-ops/JetsonSLAM.git
+[submodule "JetsonYoloROS"]
+	path = JetsonYoloROS
+	url = https://github.com/GaohaoZhou-ops/JetsonYoloROS.git
+[submodule "Lidar-Camera-Calibration"]
+	path = Lidar-Camera-Calibration
+	url = https://github.com/GaohaoZhou-ops/Lidar-Camera-Calibration.git
+[submodule "Tello-LLM-ROS"]
+	path = Tello-LLM-ROS
+	url = https://github.com/GaohaoZhou-ops/Tello-LLM-ROS.git
+[submodule "Mixed-Navigation"]
+	path = Mixed-Navigation
+	url = https://github.com/GaohaoZhou-ops/Mixed-Navigation.git
