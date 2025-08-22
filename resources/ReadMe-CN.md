@@ -43,7 +43,7 @@
 |LiDAR|[Livox Mid360](https://www.livoxtech.com/cn/mid-360)|¥3,999.00|![mid360](./images/mid360.png)|
 |RGBD Camera|[RealSense D435i](https://store.realsenseai.com/buy-intel-realsense-depth-camera-d435i.html)|$ 354.00|![d345i](./images/d435i.png)|
 |Computer|[Nvidia Jetson Orin DK](https://www.nvidia.cn/autonomous-machines/embedded-systems/jetson-orin/)|¥ 15,999|![orim](./images/orin.png)|
-|Battery|Custom Made|¥ 250|None|
+|Battery|Custom Made|¥ 250| 93mm x 70mm x 69mm|
 
 
 * 注意：`官方指导价` 使用了不同汇率标识以避免汇率歧义；
